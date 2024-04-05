@@ -1,0 +1,33 @@
+body {
+  background-image: url(https://cdn.glitch.global/0d08dcb6-b099-41a4-9302-d5ebfd196a6e/first_page.jpg?v=1704671818563);
+  background-size: cover;
+  background-color: #eecab8;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #670000;
+  text-shadow: 2px 2px #ffffff;
+  margin-top: 50px;
+  font-family: "PT Sans", sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+@media all and (max-width: 800px) {
+  #container {
+    flex-direction: column;
+  }
+  #container {
+    margin-top: 40px;
+  }
+  button {
+    width: 300px;
+    margin-top: 40px;
+  }
+}
